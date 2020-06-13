@@ -11,7 +11,7 @@ module.exports = function (app) {
 
   plugin.id = 'signalk-azure-iot';
   plugin.name = 'SignalK to Azure IoT Hub';
-  plugin.description = 'Plugin that logs SignalK data to Azure IoT Hub';
+  plugin.description = 'Plugin to log SignalK data to Azure IoT Hub';
 
   function sendMessage(m) {
     messageId++;
