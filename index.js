@@ -77,15 +77,15 @@ module.exports = function (app) {
       switch (c2d) {
         case 'connect':
           app.debug('message from c2d = ' + 'connected');
-          app.setProviderStatus('Connected to Azure IoT Hub by c2d');
+          app.setProviderStatus('Connected to Azure by c2d');
           break;
         case 'disconnect':
           app.debug('message from c2d = ' + 'disconnected');
-          app.setProviderStatus('Disconnected from Azure IoT Hub by c2d');
+          app.setProviderStatus('Disconnected from Azure by c2d');
           break;
         case 'stop':
           app.debug('message from c2d = ' + 'stopped');
-          app.setProviderStatus('SignalK Azure IoT Hub plugin is stopped by c2d');
+          app.setProviderStatus('Azure plugin is stopped by c2d');
         default:
           app.debug('default Hello from Azure Iot Hub Server by c2d');
       }
