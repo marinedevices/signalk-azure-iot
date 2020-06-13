@@ -70,9 +70,9 @@ module.exports = function (app) {
     );
 
     client.on('message', function (msg) {
-      //      these just change status info of the plugin without affecting its function;
+      //      these are Cloud to Device (c2d) messages.
+      //      At present they just change status info of the plugin without affecting its functions;
       //      append the logic as per specific requirements;
-      //      message is sent from Azure Iot Hub C2D;
       let c2d = msg.data.toString('ascii');
       switch (c2d) {
         case 'connect':
