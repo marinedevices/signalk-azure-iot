@@ -126,9 +126,6 @@ module.exports = function (app) {
   };
 
   plugin.uiSchema = {
-    azureiot_deviceId: {
-      'ui:widget': 'textarea'
-    },
     azureiot_connectionString: {
       'ui:widget': 'textarea',
     },
