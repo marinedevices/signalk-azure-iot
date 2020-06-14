@@ -87,7 +87,7 @@ module.exports = function (app) {
           app.debug('message from c2d = ' + 'stopped');
           app.setProviderStatus('Azure plugin is stopped by c2d');
         default:
-          app.debug('default Hello from Azure Iot Hub Server by c2d');
+          app.debug('default Hello from Azure by c2d');
       }
     });
   };
