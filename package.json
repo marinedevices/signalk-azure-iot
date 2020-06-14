@@ -14,5 +14,14 @@
   "dependencies": {
     "azure-iot-device": "^1.16.0",
     "azure-iot-device-mqtt": "^1.14.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marinedevices/signalk-azure-iot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marinedevices/signalk-azure-iot/issues"
+  },
+  "homepage": "https://github.com/marinedevices/signalk-azure-iot#readme"
 }
