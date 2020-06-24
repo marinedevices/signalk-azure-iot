@@ -6,4 +6,6 @@ Have your <a href="http://signalk.org/installation.html">SignalK Server</a> up a
 Follow the steps to create your <a href="https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-create-through-portal">Azure Iot Hub</a> using a free Azure account.
 Once your Device is registered fill in and activate the plugin's configuration page. The Primary Connection String is found in Azure Iot Hub/Iot Devices/[your device name].
 <img src="https://github.com/marinedevices/signalk-azure-iot/blob/master/signalkazureiothub.jpg?raw=true" width="500"></img>
+This is the output of the plugin via the Azure Web App:
+<img src="https://github.com/marinedevices/signalk-azure-iot/blob/master/portholefront.jpg?raw=true" width="500"></img>
 And that's it.
