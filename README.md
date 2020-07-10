@@ -8,4 +8,5 @@ Once your Device is registered fill in and activate the plugin's configuration p
 <img src="https://github.com/marinedevices/signalk-azure-iot/blob/master/signalkazureiothub.jpg?raw=true" width="500"></img>
 This is the output of the plugin via the Azure Web App:
 <img src="https://github.com/marinedevices/signalk-azure-iot/blob/master/portholefront.jpg?raw=true" width="500"></img>
+
 And that's it.
